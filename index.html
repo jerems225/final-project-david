@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil | EVGENIS</title>
+    <title>Acceuil | BATAC</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/icon-ee.png">
+    <link rel="icon" type="image/png" href="images/batac-fav.png">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+  />
 </head>
 <body>
     <!-- Header start -->
@@ -14,14 +18,15 @@
             <div class="nav-brand">
                 <!--<img src="images/evgenis-group.png" width="160" alt="logo"> -->
                 <div class="nav-brand-text">
-                    <a href="test.html">BIYOC</a>
+                    <a href="index.html">BATAC</a>
                 </div>
             </div>
+            <div class="bx bx-menu" id="menu-icon"></div>
             <div class="nav-items">
                 <ul class="menu">
-                    <li class="menu-item"><a href="test.html" class="nav-link">Acceuil</a></li>
-                    <li class="menu-item"><a href="" class="nav-link">Inscription</a></li>
-                    <li class="menu-item"><a href="" class="nav-link">Contact</a></li>
+                    <li class="menu-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+                    <li class="menu-item"><a href="register.html" class="nav-link">Inscrivez-Vous</a></li>
+                    <li class="menu-item"><a href="#contact" class="nav-link">Contactez-Nous</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,15 +38,15 @@
         <!-- Banner Section start -->
         <section class="banner">
             <div class="banner-text">
-                <div class="banner-title">
-                    <p>Bienvenu(e) sur notre merveilleuse plateforme web.</p>
+                <div class="banner-title fade-in-left">
+                    <p>Le meilleur de la construction avec BATAC, faites nous confiance!</p>
                 </div>
                 <div class="banner-btn-action">
                     <a href="" class="btn-action">Contactez-nous</a>
                 </div>
             </div>
             <div class="banner-image">
-                <img src="images/bot.jpg" alt="banner-image">
+                <img src="images/banner-2.jpg" alt="banner-image">
             </div>
         </section>
         <!-- Banner Section end -->
@@ -54,9 +59,8 @@
             <div class="services-items">
                 <div class="services-item">
                     <div class="services-item-image">
-                        <img src="images/dev-web.jpeg" alt="">
-                        <h3>Dev Web</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vero.</p>
+                        <img src="images/construct.png" alt="">
+                        <h3>Rénovation et construction</h3>
                         <div class="services-btn">
                             <a href="" class="btn-action">Reserver</a>
                         </div>
@@ -64,9 +68,8 @@
                 </div>
                 <div class="services-item">
                     <div class="services-item-image">
-                        <img src="images/dev-web.jpeg" alt="">
-                        <h3>ML & IA</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vero.</p>
+                        <img src="images/assain.png" alt="">
+                        <h3>Assainissement</h3>
                         <div class="services-btn">
                             <a href="" class="btn-action">Reserver</a>
                         </div>
@@ -74,9 +77,8 @@
                 </div>
                 <div class="services-item">
                     <div class="services-item-image">
-                        <img src="images/dev-web.jpeg" alt="">
-                        <h3>Dev Blockchain</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vero.</p>
+                        <img src="images/installation.png" alt="">
+                        <h3>installation et maintenance</h3>
                         <div class="services-btn">
                             <a href="" class="btn-action">Reserver</a>
                         </div>
@@ -85,6 +87,28 @@
             </div>
         </section>
         <!-- Our Services end-->
+
+        <section class="contact">
+            <a name="contact"></a>
+            <div class="services-title">
+                <h2>Contactez-Nous</h2>
+            </div>
+            <div class="contact-box">
+                <div class="contact-form">
+                    <form method="post">
+                        <input type="text" class="field" placeholder="Votre Nom" required>
+                        <input type="email" class="field" placeholder="Votre Email" required>
+                        <input type="text" class="field" placeholder="Votre Telephone" required>
+                        <textarea class="field" id="" cols="30" rows="7" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn-action">Envoyer</button>
+                    </form>
+                </div>
+                <div class="contact-image">
+                    <img src="images/contact-img.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
     </main>
     <!-- Main end -->
 
@@ -93,12 +117,12 @@
         <div class="footer">
             <p>
                 All right reserved to
-                <a href="https://jcreas.com" target="_blank">Jcreas Labs</a>
+                <a href="https://gomycode.com" target="_blank" class="copy">David Creation</a>
             </p>
-            <button>Test</button>
         </div>
     </footer>
     <!--Footer end -->
+    <script src="js/main.js"></script>
 </body>
 </html>
 
